@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		EAFB65DD244F3C9A0000CAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFB65DC244F3C9A0000CAE3 /* Assets.xcassets */; };
 		EAFB65E0244F3C9A0000CAE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFB65DE244F3C9A0000CAE3 /* LaunchScreen.storyboard */; };
 		EAFB65E8244F415B0000CAE3 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB65E7244F415B0000CAE3 /* InputViewController.swift */; };
+		EAFB65EA244F59E50000CAE3 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB65E9244F59E50000CAE3 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EAFB65DF244F3C9A0000CAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAFB65E1244F3C9A0000CAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAFB65E7244F415B0000CAE3 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		EAFB65E9244F59E50000CAE3 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,6 @@
 				4BE93EFA4A4FC264C9F2B9BD /* Pods-taskapp.debug.xcconfig */,
 				2B952320DE02F6EA54ED8400 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +84,7 @@
 		EAFB65D2244F3C980000CAE3 /* taskapp */ = {
 			isa = PBXGroup;
 			children = (
+				EAFB65E9244F59E50000CAE3 /* Task.swift */,
 				EAFB65D3244F3C980000CAE3 /* AppDelegate.swift */,
 				EAFB65D5244F3C980000CAE3 /* SceneDelegate.swift */,
 				EAFB65D7244F3C980000CAE3 /* ViewController.swift */,
@@ -212,6 +214,7 @@
 			files = (
 				EAFB65D8244F3C980000CAE3 /* ViewController.swift in Sources */,
 				EAFB65D4244F3C980000CAE3 /* AppDelegate.swift in Sources */,
+				EAFB65EA244F59E50000CAE3 /* Task.swift in Sources */,
 				EAFB65D6244F3C980000CAE3 /* SceneDelegate.swift in Sources */,
 				EAFB65E8244F415B0000CAE3 /* InputViewController.swift in Sources */,
 			);
